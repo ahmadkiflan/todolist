@@ -1,0 +1,27 @@
+button {
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#random {
+  background-color: goldenrod;
+}

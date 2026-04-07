@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: rebeccapurple;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+article {
+  margin: 5rem auto;
+  max-width: 500px;
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+article h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article section {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+article section input {
+  border: 0;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+article section input::placeholder {
+  color: white;
+}
+
+article section button {
+  border: 0;
+  outline: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 90px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+article section button:hover {
+  background-color: green;
+  color: white;
+  outline: 2px solid white;
+}
+
+ul {
+  margin-top: 3rem;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 2.5rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: "\2714";
+  display: inline-block;
+}
+
+ul li:hover {
+  font-size: 1.4rem;
+}
+
+ul li::before {
+  content: "\2610";
+  margin-right: 1rem;
+}
+
+span {
+  position: absolute;
+  right: 0;
+  background-color: black;
+  padding: 0.8rem;
+  border-radius: 30%;
+  color: white;
+  top: -12px;
+  width: 50px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+span:hover {
+  background-color: red;
+  outline: 2px solid rebeccapurple;
+}
